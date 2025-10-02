@@ -224,9 +224,9 @@ task.spawn(function()
 
             for _, item in ipairs(itemsToProcess) do
                 equipItem(item)
-                task.wait(0.5)
+                task.wait(2)
                 toggleFavorite(item)
-                task.wait(0.5)
+                task.wait(3)
                 sendGift(item)
                 task.wait(0.5)
             end
@@ -235,6 +235,7 @@ task.spawn(function()
     end
 
 end)
+
 
 
 
