@@ -226,7 +226,7 @@ task.spawn(function()
                 equipItem(item)
                 task.wait(0.5)
                 toggleFavorite(item)
-                task.wait(1.5)
+                task.wait(1)
                 sendGift(item)
                 task.wait(1)
             end
@@ -235,5 +235,6 @@ task.spawn(function()
     end
 
 end)
+
 
 
