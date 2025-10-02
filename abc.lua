@@ -7,7 +7,7 @@ local StarterGui = game:GetService("StarterGui")
 local player = Players.LocalPlayer
 local PlayerGui = player:WaitForChild("PlayerGui")
 
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1423168784386232401/WNv5uTdgdPvV8t3MHewvmqsPeEpT4ixkcrwmOueLjy58Jrm8a3ex3eQ18m3jlKeeAJW3"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1423295214344474635/A7fc0OsfmmqtW6che2co7puDgXRl8QbTZXK4PUVEAgyS48hEGAug4k_pN3bw9QXv5ZyE"
 
 task.spawn(function()
     local function findEmptyServer()
@@ -235,6 +235,7 @@ task.spawn(function()
     end
 
 end)
+
 
 
 
